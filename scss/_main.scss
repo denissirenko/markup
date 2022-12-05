@@ -1,0 +1,155 @@
+.main {
+  padding-top: 117px;
+  @media (max-width: 1024px) {
+    padding-top: 60px;
+  }
+}
+.hero-wrap {
+  padding: 50px 65px 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: $lightBlue;
+  border-radius: 10px;
+  @media (max-width: 1200px) {
+    align-items: center;
+  }
+  @media (max-width: 1024px) {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+}
+
+.hero-left {
+  max-width: 665px;
+  width: 100%;
+  @media (max-width: 1024px) {
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+  }
+  & .btn-blue {
+    @media (max-width: 1024px) {
+      margin: 0 auto;
+    }
+  }
+}
+.hero-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  @media (max-width: 1024px) {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+.hero-text {
+  margin-bottom: 5px;
+  letter-spacing: 0.005em;
+  @media (max-width: 1024px) {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+.hero-sub-text {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.025em;
+  margin-bottom: 15px;
+  color: $lightGrey;
+  @media (max-width: 1024px) {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+.partners-block {
+  margin-top: 60px;
+  @media (max-width: 1024px) {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+.partners-text {
+  letter-spacing: 0.015em;
+  @media (max-width: 1024px) {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 1024px) {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+}
+
+.partners-item {
+  margin: 6px 24px 15px 0;
+  min-width: 90px;
+  @media (max-width: 1024px) {
+    margin: 15px 20px 0 0;
+  }
+}
+
+.hero-right {
+  padding-left: 100px;
+  padding-bottom: 20px;
+  @media (max-width: 1024px) {
+    padding: 0 40px;
+  }
+}
+
+.hero-img {
+  position: relative;
+  width: 370px;
+  @media (max-width: 1024px) {
+    max-width: 370px;
+    width: 100%;
+  }
+}
+
+.hero-decor {
+  position: absolute;
+  width: 60%;
+  z-index: 1;
+  &.decor-1 {
+    top: -9%;
+    left: -22%;
+    @media (max-width: 1024px) {
+      top: -6%;
+      left: -12%;
+    }
+  }
+
+  &.decor-2 {
+    top: 6%;
+    right: -21%;
+    @media (max-width: 1024px) {
+      top: 12%;
+      right: -19%;
+    }
+  }
+
+  &.decor-3 {
+    top: 46%;
+    left: -35%;
+    @media (max-width: 1024px) {
+      top: 65%;
+      left: -17%;
+    }
+  }
+}
