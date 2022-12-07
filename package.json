@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "inputmask": "^5.0.7",
-    "intl-tel-input": "^17.0.19",
     "jquery": "^3.6.1",
     "jquery-validation": "^1.19.5",
     "normalize.css": "^8.0.1",
