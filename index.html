@@ -2,24 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Source+Sans+Pro:wght@400;600&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
     <title>Plerdy test</title>
-    <link rel="stylesheet" href="./assets/index.aa56b969.css" />
+    <link rel="stylesheet" href="./assets/index.6f345bef.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header-wrap">
           <a href="/" class="logo">
-            <img src="/assets/logo.8b4629cc.svg" alt="site logo" />
+            <img src="./assets/logo.8b4629cc.svg" alt="site logo" />
           </a>
           <nav class="menu">
             <a href="#" class="menu-item"> Pricing </a>
@@ -28,7 +32,9 @@
           </nav>
           <div class="btn-block">
             <button class="btn btn-text">Sing In</button>
-            <button class="btn btn-blue">Contact sales</button>
+            <button class="btn btn-blue open-modal-js" name="button" data-popup="popup">
+              Contact sales
+            </button>
           </div>
           <div class="burger-menu">
             <div class="menu-icon"></div>
@@ -53,40 +59,234 @@
                 Thus, you'll compile a list of flaws in your website interface, navigation, and
                 conversion path that can eventually affect its micro and macro conversion rates.
               </p>
-              <button class="btn btn-blue">Run the Plerdy tool</button>
+              <button class="btn btn-blue open-modal-js" name="button" data-popup="popup">
+                Run the Plerdy tool
+              </button>
               <div class="partners-block">
                 <div class="partners-text">Trusted by some of the world's largest enterprises</div>
                 <div class="partners">
                   <div class="partners-item">
-                    <img src="/assets/softServe.dbcd6ff1.svg" alt="Soft Serve" />
+                    <img src="./assets/softServe.dbcd6ff1.svg" alt="Soft Serve" />
                   </div>
                   <div class="partners-item">
-                    <img src="/assets/subaru.e733d405.svg" alt="subaru" />
+                    <img src="./assets/subaru.e733d405.svg" alt="subaru" />
                   </div>
                   <div class="partners-item">
-                    <img src="/assets/anexTour.8ffd2130.svg" alt="Anex Tour" />
+                    <img src="./assets/anexTour.8ffd2130.svg" alt="Anex Tour" />
                   </div>
                   <div class="partners-item">
-                    <img src="/assets/prom.f2fe3748.svg" alt="Prom" />
+                    <img src="./assets/prom.f2fe3748.svg" alt="Prom" />
                   </div>
                   <div class="partners-item">
-                    <img src="/assets/ukrPoshta.9c81b0ac.svg" alt="Ukrposhta" />
+                    <img src="./assets/ukrPoshta.9c81b0ac.svg" alt="Ukrposhta" />
                   </div>
                 </div>
               </div>
             </div>
             <div class="hero-right">
               <div class="hero-img">
-                <img src="/assets/woman.80567ed6.png" alt="woman" />
-                <img class="hero-decor decor-1" src="/assets/deco-1.3dfa8d10.png" alt="decor" />
-                <img class="hero-decor decor-2" src="/assets/deco-2.3b7e0a4f.png" alt="decor" />
-                <img class="hero-decor decor-3" src="/assets/deco-3.81ad2b15.png" alt="decor" />
+                <img src="./assets/woman.80567ed6.png" alt="woman" />
+                <img class="hero-decor decor-1" src="./assets/deco-1.3dfa8d10.png" alt="decor" />
+                <img class="hero-decor decor-2" src="./assets/deco-2.3b7e0a4f.png" alt="decor" />
+                <img class="hero-decor decor-3" src="./assets/deco-3.81ad2b15.png" alt="decor" />
               </div>
             </div>
           </div>
         </div>
       </section>
+      <section class="reasons">
+        <div class="reasons-container">
+          <div class="section-title-wrap">
+            <h2 class="section-title">
+              6 Reasons <span>to Use Plerdy Data for a Website Usability Audit</span>
+            </h2>
+            <div class="swiper-btn-block">
+              <div class="swiper-button-prev">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.99999 0.333414L7.87499 1.22925L2.72916 6.37508L13.6667 6.37508L13.6667 7.62508L2.72916 7.62508L7.87499 12.7709L6.99999 13.6667L0.333324 7.00008L6.99999 0.333414Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.00001 13.6666L6.12501 12.7708L11.2708 7.62492H0.333344V6.37492H11.2708L6.12501 1.22909L7.00001 0.333252L13.6667 6.99992L7.00001 13.6666Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h3 class="swiper-title">You will benefit from our SaaS marketing product</h3>
+                <p class="swiper-text">
+                  Our team has developed a powerful tool to audit website content – a heatmap that
+                  features more than 100 reports for e-marketers and business owners.
+                </p>
+                <span class="swiper-count">1</span>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="swiper-title">We have 10+ years of experience in digital marketing</h3>
+                <p class="swiper-text">
+                  The Plerdy team has rich experience in auditing, analyzing, and improving
+                  eCommerce websites to boost their conversion rates. So we are well aware of all
+                  the weak spots of eCommerce websites and know what data you need to run a
+                  usability audit of your website.
+                </p>
+                <span class="swiper-count">2</span>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="swiper-title">
+                  We enable generating hypotheses about what leads to low website conversions
+                </h3>
+                <p class="swiper-text">
+                  Thanks to the data gathered with the Plerdy heatmap about your website visitors’
+                  behavior, you can generate hypotheses that potentially explain which functional
+                  flaws and problems are causing a low conversion on your website and how.
+                </p>
+                <span class="swiper-count"> 3 </span>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="swiper-title">The analysis of the dynamic elements of the website</h3>
+                <p class="swiper-text">
+                  Some services disregard such an important aspect as the clickability analysis of
+                  the dynamic elements when UX auditing, including drop-down menu, pop-up, and
+                  slider. However, thanks to the unique Plerdy auditing functionality, you will
+                  receive this information.
+                </p>
+                <span class="swiper-count"> 4 </span>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="swiper-title">
+                  The analysis of both the desktop and mobile versions of the website
+                </h3>
+                <p class="swiper-text">
+                  In some areas, websites generate more than 60% of the traffic from their mobile
+                  versions, so it would be unwise not to audit the behavior of mobile users. With
+                  the Plerdy heatmap, you can run a UX auditing analysis separately for the desktop
+                  and mobile versions of your website.
+                </p>
+                <span class="swiper-count"> 5 </span>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="swiper-title">We have 10+ years of experience in digital marketing</h3>
+                <p class="swiper-text">
+                  The Plerdy team has rich experience in auditing, analyzing, and improving
+                  eCommerce websites to boost their conversion rates. So we are well aware of all
+                  the weak spots of eCommerce websites and know what data you need to run a
+                  usability audit of your website.
+                </p>
+                <span class="swiper-count"> 6 </span>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="boost-block">
+          <div class="container">
+            <div class="boost-wrap">
+              <button class="btn btn-blue open-modal-js" name="button" data-popup="popup">
+                Boost my website conversion
+              </button>
+              <p class="boost-text">
+                So, it’s high time for you to stop losing 99% of potential clients due to being
+                unaware of your website users’ behavior patterns and needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <script type="module" crossorigin src="./assets/index.1b7c8cb2.js"></script>
+    <div class="popup">
+      <div class="popup-content">
+        <div class="popoupLeft">
+          <img src="./assets/popup.668a94f3.png" alt="popup images" />
+        </div>
+        <div class="popoupRight">
+          <h3 class="popupTitle">How to do a Website Audit to Improve SEO & Conversions</h3>
+          <h4 class="popup-subTitle">You will get an SMS with a link to the webinar</h4>
+
+          <form class="form" id="form">
+            <div class="form-control">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                placeholder="Boris Johnson"
+                class="form-input"
+                name="name"
+                id="name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="phone" class="form-label">Lable</label>
+              <input
+                type="tel"
+                placeholder="XX XXX XXXX"
+                class="form-input"
+                name="phone"
+                id="phone"
+                required
+              />
+            </div>
+            <div class="popup-btn-block">
+              <button class="btn btn-blue" disabled>Support</button>
+              <button
+                type="submit"
+                class="btn btn-blue do_form_js"
+                name="button"
+                data-popup="popup"
+              >
+                Contact sales
+              </button>
+            </div>
+            <div class="popup-checkbox-block">
+              <input class="checkbox-input" type="checkbox" id="checkbox" />
+              <label class="checkbox-label" for="checkbox"
+                >By sending up? you agree to our <a href="#">Conditions</a> and
+                <a href="#">Private Policy</a></label
+              >
+            </div>
+          </form>
+          <div class="popup-footer">
+            <img
+              class="popup-footer-img"
+              src="./assets/footer-logo.67661b30.svg"
+              alt="popup footer img"
+            />
+            <div class="popup-footer-text">
+              Powered by
+              <a href="https://www.plerdy.com" class="popup-footer-link">Plerdy</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup-close">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+            <path
+              d="M28.2 24L47.1 5.1c1.2-1.2 1.2-3.1 0-4.2 -1.2-1.2-3.1-1.2-4.2 0L24 19.7 5.1 0.9c-1.2-1.2-3.1-1.2-4.2 0 -1.2 1.2-1.2 3.1 0 4.2l18.9 18.9L0.9 42.9c-1.2 1.2-1.2 3.1 0 4.2C1.5 47.7 2.2 48 3 48s1.5-0.3 2.1-0.9l18.9-18.9L42.9 47.1c0.6 0.6 1.4 0.9 2.1 0.9s1.5-0.3 2.1-0.9c1.2-1.2 1.2-3.1 0-4.2L28.2 24z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="./assets/index.a7c645bc.js"></script>
   </body>
 </html>
