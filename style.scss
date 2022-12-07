@@ -1,4 +1,7 @@
-@import '/node_modules/normalize.css/normalize.css';
-@import '/scss/common';
-@import '/scss/header';
-@import '/scss/main';
+@import './node_modules/normalize.css/normalize.css';
+@import './node_modules/intl-tel-input/build/css/intlTelInput.css';
+@import './scss/common';
+@import './scss/header';
+@import './scss/main';
+@import './scss/popup';
+@import './scss/slider';

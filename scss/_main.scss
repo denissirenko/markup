@@ -120,15 +120,19 @@
     max-width: 370px;
     width: 100%;
   }
+  @media (max-width: 600px) {
+    max-width: 340px;
+  }
 }
 
 .hero-decor {
   position: absolute;
-  width: 60%;
   z-index: 1;
   &.decor-1 {
-    top: -9%;
+    top: -10%;
     left: -22%;
+    animation-name: decor1;
+    animation-duration: 1s;
     @media (max-width: 1024px) {
       top: -6%;
       left: -12%;
@@ -137,7 +141,9 @@
 
   &.decor-2 {
     top: 6%;
-    right: -21%;
+    right: -17%;
+    animation-name: decor1;
+    animation-duration: 1.5s;
     @media (max-width: 1024px) {
       top: 12%;
       right: -19%;
@@ -147,9 +153,100 @@
   &.decor-3 {
     top: 46%;
     left: -35%;
+    animation-name: decor1;
+    animation-duration: 2s;
     @media (max-width: 1024px) {
       top: 65%;
       left: -17%;
     }
+  }
+}
+
+@keyframes decor1 {
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes decor2 {
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes decor3 {
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.reasons {
+  padding: 100px 0 75px;
+  @media (max-width: 1024px) {
+    padding: 40px 0 30px;
+  }
+}
+
+.reasons-container {
+  padding-left: 15px;
+  margin-left: calc(50% - 643px);
+  @media (max-width: 1286px) {
+    max-width: 1286px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}
+
+.section-title-wrap {
+  margin-bottom: 40px;
+  max-width: 1256px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 1024px) {
+    margin-bottom: 15px;
+  }
+}
+.section-title {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+    line-height: 1.3em;
+  }
+  span {
+    color: #909090;
+  }
+}
+
+.boost-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.boost-text {
+  max-width: 440px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  @media (max-width: 1024px) {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
   }
 }
