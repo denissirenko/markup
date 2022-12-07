@@ -2,7 +2,6 @@ import $ from 'jquery';
 window.$ = window.jQuery = $;
 
 import Inputmask from 'inputmask';
-import intlTelInput from 'intl-tel-input';
 import validate from 'jquery-validation';
 
 jQuery(function () {
